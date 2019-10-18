@@ -14,6 +14,7 @@
 		3EF0D71B2357AFC7003DEA55 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3EF0D7192357AFC7003DEA55 /* LaunchScreen.storyboard */; };
 		3EFEAB0B2357F13F00C34E80 /* LoginScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EFEAB0A2357F13F00C34E80 /* LoginScreenViewController.swift */; };
 		3EFEAB0D2357F18300C34E80 /* GroupLunchCordinatorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EFEAB0C2357F18300C34E80 /* GroupLunchCordinatorViewController.swift */; };
+		3EFEAB0F23591F4200C34E80 /* UserListCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EFEAB0E23591F4200C34E80 /* UserListCollectionViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		3EF0D71C2357AFC7003DEA55 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3EFEAB0A2357F13F00C34E80 /* LoginScreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginScreenViewController.swift; sourceTree = "<group>"; };
 		3EFEAB0C2357F18300C34E80 /* GroupLunchCordinatorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupLunchCordinatorViewController.swift; sourceTree = "<group>"; };
+		3EFEAB0E23591F4200C34E80 /* UserListCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserListCollectionViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +64,7 @@
 				3EF0D7102357AFC4003DEA55 /* SceneDelegate.swift */,
 				3EF0D7142357AFC4003DEA55 /* Main.storyboard */,
 				3EFEAB0A2357F13F00C34E80 /* LoginScreenViewController.swift */,
+				3EFEAB0E23591F4200C34E80 /* UserListCollectionViewController.swift */,
 				3EFEAB0C2357F18300C34E80 /* GroupLunchCordinatorViewController.swift */,
 				3EF0D7172357AFC7003DEA55 /* Assets.xcassets */,
 				3EF0D7192357AFC7003DEA55 /* LaunchScreen.storyboard */,
@@ -141,6 +144,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3EFEAB0F23591F4200C34E80 /* UserListCollectionViewController.swift in Sources */,
 				3EF0D70F2357AFC4003DEA55 /* AppDelegate.swift in Sources */,
 				3EF0D7112357AFC4003DEA55 /* SceneDelegate.swift in Sources */,
 				3EFEAB0D2357F18300C34E80 /* GroupLunchCordinatorViewController.swift in Sources */,
