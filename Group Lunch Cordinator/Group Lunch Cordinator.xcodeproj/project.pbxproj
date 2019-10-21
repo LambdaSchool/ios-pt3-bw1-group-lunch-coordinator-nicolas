@@ -7,17 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3E941DB5235BCA6300C696C4 /* addGroupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E941DB4235BCA6300C696C4 /* addGroupViewController.swift */; };
+		3E941DB7235D0D4300C696C4 /* AddPerson.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E941DB6235D0D4300C696C4 /* AddPerson.swift */; };
+		3E941DB9235D0FB300C696C4 /* GroupLunchTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E941DB8235D0FB300C696C4 /* GroupLunchTableViewCell.swift */; };
 		3EF0D70F2357AFC4003DEA55 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EF0D70E2357AFC4003DEA55 /* AppDelegate.swift */; };
 		3EF0D7112357AFC4003DEA55 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EF0D7102357AFC4003DEA55 /* SceneDelegate.swift */; };
 		3EF0D7162357AFC4003DEA55 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3EF0D7142357AFC4003DEA55 /* Main.storyboard */; };
 		3EF0D7182357AFC7003DEA55 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3EF0D7172357AFC7003DEA55 /* Assets.xcassets */; };
 		3EF0D71B2357AFC7003DEA55 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3EF0D7192357AFC7003DEA55 /* LaunchScreen.storyboard */; };
-		3EFEAB0B2357F13F00C34E80 /* LoginScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EFEAB0A2357F13F00C34E80 /* LoginScreenViewController.swift */; };
 		3EFEAB0D2357F18300C34E80 /* GroupLunchCordinatorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EFEAB0C2357F18300C34E80 /* GroupLunchCordinatorViewController.swift */; };
-		3EFEAB0F23591F4200C34E80 /* UserListCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EFEAB0E23591F4200C34E80 /* UserListCollectionViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3E941DB4235BCA6300C696C4 /* addGroupViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = addGroupViewController.swift; sourceTree = "<group>"; };
+		3E941DB6235D0D4300C696C4 /* AddPerson.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddPerson.swift; sourceTree = "<group>"; };
+		3E941DB8235D0FB300C696C4 /* GroupLunchTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupLunchTableViewCell.swift; sourceTree = "<group>"; };
 		3EF0D70B2357AFC4003DEA55 /* Group Lunch Cordinator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Group Lunch Cordinator.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3EF0D70E2357AFC4003DEA55 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3EF0D7102357AFC4003DEA55 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -25,9 +29,7 @@
 		3EF0D7172357AFC7003DEA55 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3EF0D71A2357AFC7003DEA55 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3EF0D71C2357AFC7003DEA55 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		3EFEAB0A2357F13F00C34E80 /* LoginScreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginScreenViewController.swift; sourceTree = "<group>"; };
 		3EFEAB0C2357F18300C34E80 /* GroupLunchCordinatorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupLunchCordinatorViewController.swift; sourceTree = "<group>"; };
-		3EFEAB0E23591F4200C34E80 /* UserListCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserListCollectionViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,10 +64,11 @@
 			children = (
 				3EF0D70E2357AFC4003DEA55 /* AppDelegate.swift */,
 				3EF0D7102357AFC4003DEA55 /* SceneDelegate.swift */,
-				3EF0D7142357AFC4003DEA55 /* Main.storyboard */,
-				3EFEAB0A2357F13F00C34E80 /* LoginScreenViewController.swift */,
-				3EFEAB0E23591F4200C34E80 /* UserListCollectionViewController.swift */,
+				3E941DB6235D0D4300C696C4 /* AddPerson.swift */,
+				3E941DB4235BCA6300C696C4 /* addGroupViewController.swift */,
 				3EFEAB0C2357F18300C34E80 /* GroupLunchCordinatorViewController.swift */,
+				3EF0D7142357AFC4003DEA55 /* Main.storyboard */,
+				3E941DB8235D0FB300C696C4 /* GroupLunchTableViewCell.swift */,
 				3EF0D7172357AFC7003DEA55 /* Assets.xcassets */,
 				3EF0D7192357AFC7003DEA55 /* LaunchScreen.storyboard */,
 				3EF0D71C2357AFC7003DEA55 /* Info.plist */,
@@ -144,11 +147,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3EFEAB0F23591F4200C34E80 /* UserListCollectionViewController.swift in Sources */,
+				3E941DB7235D0D4300C696C4 /* AddPerson.swift in Sources */,
+				3E941DB5235BCA6300C696C4 /* addGroupViewController.swift in Sources */,
 				3EF0D70F2357AFC4003DEA55 /* AppDelegate.swift in Sources */,
 				3EF0D7112357AFC4003DEA55 /* SceneDelegate.swift in Sources */,
+				3E941DB9235D0FB300C696C4 /* GroupLunchTableViewCell.swift in Sources */,
 				3EFEAB0D2357F18300C34E80 /* GroupLunchCordinatorViewController.swift in Sources */,
-				3EFEAB0B2357F13F00C34E80 /* LoginScreenViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
