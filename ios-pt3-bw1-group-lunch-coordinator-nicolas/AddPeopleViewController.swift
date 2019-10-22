@@ -1,20 +1,24 @@
 //
-//  AddPersonViewController.swift
+//  AddPeopleViewController.swift
 //  ios-pt3-bw1-group-lunch-coordinator-nicolas
 //
-//  Created by Nicolas Rios on 10/21/19.
+//  Created by Nicolas Rios on 10/22/19.
 //  Copyright © 2019 Nicolas Rios. All rights reserved.
 //
 
 import UIKit
 
-class AddPersonViewController: UIViewController {
-    
-    
-    
-    
-    
+class AddPeopleViewController: UIViewController {
 
+   
+    
+    
+    @IBOutlet weak var PersonNameTextField: UITextField!
+    
+    @IBOutlet weak var PizzaOrBurgers: UITextField!
+    
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 

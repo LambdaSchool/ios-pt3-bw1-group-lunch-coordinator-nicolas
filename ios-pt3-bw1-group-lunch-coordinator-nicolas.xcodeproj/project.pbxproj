@@ -9,7 +9,7 @@
 /* Begin PBXBuildFile section */
 		3EB6CD5D235EA8BE0072DDC1 /* group.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EB6CD5C235EA8BE0072DDC1 /* group.swift */; };
 		3EB6CD61235EB1200072DDC1 /* AddPeopleTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EB6CD60235EB1200072DDC1 /* AddPeopleTableViewController.swift */; };
-		3EB6CD65235EB6890072DDC1 /* AddPersonViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EB6CD64235EB6890072DDC1 /* AddPersonViewController.swift */; };
+		3EB6CD67235EE32A0072DDC1 /* AddPeopleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EB6CD66235EE32A0072DDC1 /* AddPeopleViewController.swift */; };
 		3ED187E4235E592F000292BB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ED187E3235E592F000292BB /* AppDelegate.swift */; };
 		3ED187E6235E592F000292BB /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ED187E5235E592F000292BB /* SceneDelegate.swift */; };
 		3ED187EB235E592F000292BB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3ED187E9235E592F000292BB /* Main.storyboard */; };
@@ -20,7 +20,7 @@
 /* Begin PBXFileReference section */
 		3EB6CD5C235EA8BE0072DDC1 /* group.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = group.swift; sourceTree = "<group>"; };
 		3EB6CD60235EB1200072DDC1 /* AddPeopleTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddPeopleTableViewController.swift; sourceTree = "<group>"; };
-		3EB6CD64235EB6890072DDC1 /* AddPersonViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddPersonViewController.swift; sourceTree = "<group>"; };
+		3EB6CD66235EE32A0072DDC1 /* AddPeopleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddPeopleViewController.swift; sourceTree = "<group>"; };
 		3ED187E0235E592F000292BB /* ios-pt3-bw1-group-lunch-coordinator-nicolas.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ios-pt3-bw1-group-lunch-coordinator-nicolas.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3ED187E3235E592F000292BB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3ED187E5235E592F000292BB /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -45,7 +45,7 @@
 			isa = PBXGroup;
 			children = (
 				3EB6CD60235EB1200072DDC1 /* AddPeopleTableViewController.swift */,
-				3EB6CD64235EB6890072DDC1 /* AddPersonViewController.swift */,
+				3EB6CD66235EE32A0072DDC1 /* AddPeopleViewController.swift */,
 			);
 			name = Controllers;
 			sourceTree = "<group>";
@@ -152,11 +152,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3EB6CD67235EE32A0072DDC1 /* AddPeopleViewController.swift in Sources */,
 				3ED187E4235E592F000292BB /* AppDelegate.swift in Sources */,
 				3EB6CD5D235EA8BE0072DDC1 /* group.swift in Sources */,
 				3EB6CD61235EB1200072DDC1 /* AddPeopleTableViewController.swift in Sources */,
 				3ED187E6235E592F000292BB /* SceneDelegate.swift in Sources */,
-				3EB6CD65235EB6890072DDC1 /* AddPersonViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
